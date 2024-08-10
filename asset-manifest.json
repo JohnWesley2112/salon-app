@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/salon-app/static/css/main.e6c13ad2.css",
+    "main.js": "/salon-app/static/js/main.7622eb9b.js",
+    "static/media/logo.jpg": "/salon-app/static/media/logo.29ccb0b4af31b00ac1c7.jpg",
+    "static/media/search.svg": "/salon-app/static/media/search.ec6a9689f8e9b3137519d4f0c6d07998.svg",
+    "index.html": "/salon-app/index.html",
+    "main.e6c13ad2.css.map": "/salon-app/static/css/main.e6c13ad2.css.map",
+    "main.7622eb9b.js.map": "/salon-app/static/js/main.7622eb9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7622eb9b.js"
+  ]
+}
