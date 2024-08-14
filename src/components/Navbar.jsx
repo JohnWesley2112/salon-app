@@ -3,21 +3,20 @@ import '../css/Navbar.css'
 
 function Navbar() {
   return (
-    <div className='nav-container'>
-      <nav className="nav-wrapper">
-        <ul className='nav-links nav-links-left'>
-          <li><button>Home</button></li>
-          <li><button>About</button></li>
-          <li><button>Services</button></li>
-          <li><button>Gallery</button></li>
-          <li><button>Contact</button></li>
+    <div className='navbar-container'>
+      <div className="navbar-wrapper">
+        <ul className="nav-links nav-links-left">
+          <li className="links">Home</li>
+          <li className="links">About</li>
+          <li className="links">Services</li>
+          <li className="links">Gallery</li>
+          <li className="links">Contact</li>
         </ul>
-        
-        <ul  className='nav-links nav-links-right'>
-          <li><button>For Business</button></li>
-          <li><button>Post Ads</button></li>
+        <ul className="nav-links nav-links-right">
+          <li className="links">For Business</li>
+          <li className="links">Post Ads</li>
         </ul>
-      </nav>
+      </div>
     </div>
   )
 }

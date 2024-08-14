@@ -1,0 +1,16 @@
+.heropage-container {
+  width: 100%;
+  height: 100%;
+}
+
+.heropage-wrapper {
+  height: calc(100vh - 0.5rem);
+  width: calc(100%);
+  display: flex;
+  overflow: hidden;
+}
+
+.heropage-wrapper img {
+  width: 100%;
+  height: 100%;
+}
