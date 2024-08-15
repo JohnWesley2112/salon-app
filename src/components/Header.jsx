@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import '../css/Header.css'
 import { ReactComponent as SearchIcon } from '../assets/svg/search.svg';
 import { ReactComponent as UserIcon } from '../assets/svg/profile.svg';
 
 
 function Header() {
+  let [isProfile, setIsProfile] = useState(false)
   return (
     <div className="header-container">
       <div className="header-wrapper">
@@ -13,8 +14,8 @@ function Header() {
             <input type="text" name="" id="" placeholder="Search"/>
             <button><SearchIcon/></button>
           </div>
-          <button className="vertical-dots"><UserIcon/></button>
-        <div className="profile-wrapper">
+          <button onClick={()=>{setIsProfile(!isProfile)}} className="vertical-dots"><UserIcon/></button>
+        <div className={`${isProfile?'profile-wrapper show-profile-wrapper':'profile-wrapper'}`}>
           <button>Login</button>
           <button>Signup</button>
         </div>
