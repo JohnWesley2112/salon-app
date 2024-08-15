@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/salon-app/static/css/main.8ce09f59.css",
-    "main.js": "/salon-app/static/js/main.e9a4b1a1.js",
+    "main.js": "/salon-app/static/js/main.ce69b5c5.js",
     "static/media/img1.jpg": "/salon-app/static/media/img1.087cb882df2d60248287.jpg",
     "static/media/img-tabs.jpg": "/salon-app/static/media/img-tabs.a741fa89ea2377746b89.jpg",
     "static/media/img-mobile.jpg": "/salon-app/static/media/img-mobile.7bdeb9f77fb979cf2c59.jpg",
     "static/media/logo.jpg": "/salon-app/static/media/logo.29ccb0b4af31b00ac1c7.jpg",
     "static/media/profile.svg": "/salon-app/static/media/profile.6bae67c9807bb6e0a1514dce7041421c.svg",
+    "static/media/hamburger-icon.svg": "/salon-app/static/media/hamburger-icon.a38152988aeb292910283d5348a7938a.svg",
     "index.html": "/salon-app/index.html",
     "static/media/search.svg": "/salon-app/static/media/search.ec6a9689f8e9b3137519d4f0c6d07998.svg",
     "main.8ce09f59.css.map": "/salon-app/static/css/main.8ce09f59.css.map",
-    "main.e9a4b1a1.js.map": "/salon-app/static/js/main.e9a4b1a1.js.map"
+    "main.ce69b5c5.js.map": "/salon-app/static/js/main.ce69b5c5.js.map"
   },
   "entrypoints": [
     "static/css/main.8ce09f59.css",
-    "static/js/main.e9a4b1a1.js"
+    "static/js/main.ce69b5c5.js"
   ]
 }
