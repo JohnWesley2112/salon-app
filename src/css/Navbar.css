@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .nav-links {
@@ -43,5 +44,34 @@
 
   .nav-links .links {
     padding: 0.25rem 1rem;
+  }
+}
+
+@media screen and (width<=420px) {
+  .nav-links-left {
+    display: none;
+    position: absolute;
+    top: 100%;
+    flex-direction: column;
+    background: #f1f3f6;
+    width: 100%;
+  }
+
+  .show-left-nav-links {
+    display: flex;
+  }
+
+  .nav-links-left .links {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links-right .links {
+    font-size: 0.9rem;
+  }
+
+  .hamburger-icon-btn {
+    border: 1px solid transparent;
+    margin-left: 1.6rem;
   }
 }
