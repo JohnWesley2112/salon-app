@@ -144,6 +144,7 @@
 
   .show-profile-wrapper {
     display: flex;
+    z-index: 1;
   }
 
   .profile-wrapper button {
